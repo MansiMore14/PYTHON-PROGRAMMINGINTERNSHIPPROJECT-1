@@ -2,8 +2,8 @@ import random
 import string
 
 def generate_username(include_numbers=True, include_special_chars=True, length=8):
-    adjectives = ["Cool", "Happy", "Fast", "Mighty", "Brave", "Sneaky", "Fierce", "Jolly"]
-    nouns = ["Tiger", "Dragon", "Panda", "Eagle", "Wizard", "Knight", "Ninja", "Falcon"]
+    adjectives = ["Bold", "Lively", "Swift", "Noble", "Clever", "Witty", "Valiant", "Cheerful"]
+    nouns = ["Phoenix", "Griffin", "Cheetah", "Raven", "Sage", "Guardian", "Samurai", "Hawk"]
     special_chars = "!@#$%^&*"
     
     # Pick random adjective and noun
